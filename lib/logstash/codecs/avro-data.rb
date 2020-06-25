@@ -1,6 +1,7 @@
 # encoding: utf-8
 require 'logstash/codecs/base'
 require 'avro'
+require 'snappy'
 
 # This  codec will append a string to the message field
 # of an event, either in the decoding or encoding methods

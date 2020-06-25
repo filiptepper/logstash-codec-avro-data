@@ -21,5 +21,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'logstash-core-plugin-api', "~> 2.0"
   s.add_runtime_dependency 'logstash-codec-line'
   s.add_runtime_dependency 'avro'
+  s.add_runtime_dependency 'snappy'
+
   s.add_development_dependency 'logstash-devutils'
 end
