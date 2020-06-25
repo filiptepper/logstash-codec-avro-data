@@ -1,0 +1,3 @@
+/.bundle
+/vendor/bundle/
+/spec/fixtures/logstash.conf
